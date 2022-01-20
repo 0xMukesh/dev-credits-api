@@ -12,7 +12,7 @@ const postCredits = (req, res) => {
                 { id: req.body.id },
                 {
                     $set: {
-                        credits: req.body.credits
+                        credits: credits + req.body.credits
                     },
                 },
                 { new: true },
