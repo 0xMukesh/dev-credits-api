@@ -11,8 +11,8 @@ const postCredits = (req, res) => {
             devCredits.findOneAndUpdate(
                 { id: req.body.id },
                 {
-                    $set: {
-                        credits: credits + req.body.credits
+                    $inc: {
+                        credits: req.body.credits
                     },
                 },
                 { new: true },
