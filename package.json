@@ -1,0 +1,20 @@
+{
+  "name": "dev-credit-api",
+  "version": "0.0.1",
+  "description": "A API which is used to connect with the bot and the mongodb database",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Kira272921",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
